@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Eric's Portfolio</title>
-    <meta name="description" content="">
+    <meta name="description" content="A collection of projects created by Eric Cheong and how they were implemented">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
+    <meta name="author" content="Eric Cheong Kai Kit">
     <link rel="icon" type="image/png" href="./images/dislplay-picture.PNG" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -88,28 +89,6 @@
 
     </div>
 
-    <section id="achievements" class="target">
-      <div class='space-between'>
-        <h2 class="font-header">Achievements</h2>
-        <i class="fa fa-star"></i>
-      </div>
-
-      <div id="achievements-content" class="font-body">
-        <div id="achieved">
-          <section>
-            <h3>2021</h3>
-            <p>Best project nomination (Web Information System)</p>
-          </section>
-
-          <section>
-            <h3>2020</h3>
-            <p>Dean's Commendation For Academic Excellence (S1)</p>
-            <p>Best use of Analytic Tool Award (Cloud Computing)</p>
-          </section>
-        </div>
-      </div>
-    </section>
-
     <section id="experience" class="target">
       <div class='space-between'>
         <h2 class="font-header">Experience</h2>
@@ -142,13 +121,22 @@
 
       <div id="projects-content" class="font-body">
         <section class="reviewer-hub-project">
-          <h3>Reviewer Hub Project</h3>
+          <h3>Reviewer Hub Project <em><a href="https://infs3202-8a85b4a1.uqcloud.net/project/" target="_blank">(demo)</a></em></h3>
           <div class="project-detail">
             <div class="img-sizing">
               <img src="images/review-hub.png">
             </div>
             <div class="project-description">
-              <p class="font-body">Reviewers Hub is a website that would allow users to write reviews on anything, users would be able to create their very own account and rate other reviews. Users would then be able to save certain reviews into their wishlist, write comments on reviewws, upvote or downvote reviews that are bad or good. All reviews, account created by users and reviews that are saved, would be stored in a database. The website utilizes google chart API to allow users to visualize what they have done and how the community is growing and a simple chatbot is implemented that has functionalities like allowing users to delete or ban comments or reviews or even find other existing users. Source code can be found <em><a href="https://github.com/25Ericcheong/reviewer-hub-web/tree/master/project" target="_blank">here.</a></em> The published website can also be found <em><a href="https://infs3202-8a85b4a1.uqcloud.net/project/" target="_blank">here.</a></em></p>
+              <ul class="font-body">
+                <li>Reviewers Hub is a website that would allow users to write reviews on anything, users would be able to create their very own account and rate other reviews. Users would then be able to save certain reviews into their wishlist, write comments on reviews, upvote or downvote reviews that are bad or good</li>
+                <li>
+                  All reviews, account created by users and reviews that are saved, would be stored in a database
+                </li>
+                <li>
+                  The website utilizes google chart API to allow users to visualize what they have done and how the community is growing and a simple chatbot is implemented that has functionalities like allowing users to delete or ban comments or reviews or even find other existing users
+                </li>
+              </ul>
+              <p class="font-body">Source code can be found <em><a href="https://github.com/25Ericcheong/reviewer-hub-web/tree/master/project" target="_blank">here.</a></em>
               <section>
                 <p class="top-spacing">The following were skills/tools involved:</p>
                 <div class="skills font-emphasized">
@@ -161,13 +149,20 @@
         </section>
 
         <section class="cloud-computing-project">
-          <h3>Cloud Computing Project</h3>
+          <h3>Cloud Computing Project <em><a href="https://youtu.be/4M0Akl1_OWc" target="_blank">(demo)</a></em></h3>
           <div class="project-detail">
             <div class="img-sizing">
               <img src="images/cloud-comp-project.PNG">
             </div>
             <div class="project-description">
-              <p class="font-body">Performed analysis on dataset acquired from Kaggle and stored dataset with the use of a distributed file system (Apache Hadoop). Processing was achieved with the help of Spark clusters and Spark programming techniques and Spark built-in libraries. Finally, all results were then visualized with the use of Jupyter Notebook and is deployed with the use of Google Cloud Computing (GCP). Source code can be found <em><a href="https://github.com/25Ericcheong/university-assignments/tree/master/cloud-computing-project" target="_blank">here</a></em>.</p>A detailed explanation of my thought process and explanation of how and why the project was developed can be found <em><a href="https://youtu.be/4M0Akl1_OWc" target="_blank">here</a></em>.
+              <ul class="font-body">
+                <li>Performed analysis on dataset acquired from Kaggle</li>
+                <li>Prior to performing model training with dataset, data cleaning was performed to remove duplicates or any other form of anomalies</li>
+                <li>Dataset was stored with the use of a distributed file system (Apache Hadoop)</li>
+                <li>Processing was achieved with the help of Spark clusters and Spark programming techniques and Spark built-in libraries</li>
+                <li>Finally, all results were then visualized with the use of Jupyter Notebook and is deployed with the use of Google Cloud Computing (GCP)</li>
+              </ul>
+              <p class="font-body">Source code can be found <em><a href="https://github.com/25Ericcheong/university-assignments/tree/master/cloud-computing-project" target="_blank">here</a></em>.</p>
               <section>
                 <p class="top-spacing">The following were skills/tools involved:</p>
                 <div class="skills font-emphasized">
@@ -180,13 +175,18 @@
         </section>
 
         <section class="robotic-design-project">
-          <h3>Robotic Design Project</h3>
+          <h3>Robotic Design Project <em><a href="https://youtu.be/8uuAB4OWR40" target="_blank">(demo)</a></em></h3>
           <div class="project-detail">
             <div class="img-sizing">
               <img src="images/robot-project.jpg">
             </div>
             <div class="project-description">
-              <p class="font-body">The purpose of this project was to design a robot that is able to sort and deliver balls to two different designated containers. The robot will need to be able to segregate three different kinds of balls and will need to be able to start on the fly. It must also be able to transfer these balls as quickly as possible to the designated locations. The robot was programmed with the use of an Arduino, it was made of plywood and servos were used for any rotational movement. A demonstration of how the final project performed on testing day can be found  <em><a href="https://youtu.be/8uuAB4OWR40" target="_blank">here</a></em>.</p>
+              <ul class="font-body">
+                <li>The purpose of this project was to design a robot that is able to sort and deliver segregated balls to two different designated containers</li>
+                <li>The robot must be able to segregate three different kinds of balls and will need to be able to start on the fly</li>
+                <li>It must also be able to transfer these balls as quickly as possible to the designated locations which makes the weight of the robot an important factor</li>
+                <li>The robot was programmed with the use of an Arduino, it was made of plywood mostly, servos were used for any rotational movement, and a push button sensor was used to initialize the robot at the start</li>
+              </ul>
               <section>
                 <p class="top-spacing">The following were skills/tools involved:</p>
                 <div class="skills font-emphasized">
@@ -199,13 +199,18 @@
         </section>
 
         <section class="pokemon-project">
-          <h3>Pokemon Themed Minesweeper</h3>
+          <h3>Pokemon Themed Minesweeper <em><a href="https://github.com/25Ericcheong/university-assignments/tree/master/Minesweeper" target="_blank">(source code)</a></em></h3>
           <div class="project-detail">
             <div class="img-sizing">
               <img src="images/python-project.PNG">
             </div>
             <div class="project-description">
-              <p class="font-body">Minesweeper mini game that utilizes tkinter with images along with functionalities that would allow users to save or load saved game (will create files or folders if directories or files have yet to exist), visually inspect the amount of time spent while playing the game, keep track of scores or even compare them with other players' scores (locally) and settings to change the difficulty level of the game as well. Game can alternate between having images or none at all. Source code can be found <em><a href="https://github.com/25Ericcheong/university-assignments/tree/master/Minesweeper" target="_blank">here</a></em>.</p>
+              <ul class="font-body">
+                <li>Minesweeper mini game that utilizes tkinter with images along with functionalities that enhances user's experience when interacting with program</li>
+                <li>Users can save or load saved game (will create files or folders if directories or files have yet to exist), visually inspect the amount of time spent while playing the game, keep track of scores or even compare them with other players' scores (locally)</li>
+                <li>Users can also alter the difficulty settings by increasing the number of hidden pokemons or the number of pokeballs that he/she prior to starting the game</li>
+                <li>Game can alternate between having images or none at all</li>
+              </ul>
               <section>
                 <p class="top-spacing">The following were skills/tools involved:</p>
                 <div class="skills font-emphasized">
@@ -218,13 +223,22 @@
         </section>
 
         <section class="resort-project">
-          <h3>Fictional Web Resort</h3>
+          <h3>Fictional Web Resort <em><a href="https://github.com/25Ericcheong/university-assignments" target="_blank">(source code)</a></em></h3>
           <div class="project-detail">
             <div class="img-sizing">
               <img src="images/resort-web.PNG">
             </div>
             <div class="project-description">
-              <p class="font-body">This is my very first website that I created for a university project which I achieved high distinction for. It is a fictional resort that is fully responsive, utilizes flexbox, provides feedback to users when making a 'reservation', progressively enhanced to some extent in the case if JavaScript does not work, and is compliant with the WCAG 2.0 accessibility guideline. It has underwent multiple iterations of improvements based on comments given by instructors which can be found in this <a href="files/design-report.pdf" target="_blank"><em>report</em></a>. Source code can be found <em><a href="https://github.com/25Ericcheong/university-assignments" target="_blank">here</a></em>.</p>
+              <ul class="font-body">
+                <li>
+                  This is my very first website that I created for a university project which I achieved high distinction for
+                </li>
+                <li>
+                  It is a fictional resort that is fully responsive, utilizes flexbox, provides feedback to users when making a 'reservation', progressively enhanced to some extent in the case if JavaScript does not work, and is compliant with the WCAG 2.0 accessibility guideline
+                </li>
+                <li>Utilizes localStorage to transfer information from one page to another without the use of database but to mimic such a scenario for functionality completeness</li>
+                <li>It has underwent multiple iterations of improvements based on comments given by instructors which can be found in this <a href="files/design-report.pdf" target="_blank"><em>report</em></a></li>
+              </ul>
               <section>
                 <p class="top-spacing">The following were skills/tools involved:</p>
                 <div class="skills font-emphasized">
@@ -234,6 +248,28 @@
             </div>
           </div>
         </section>
+      </div>
+    </section>
+
+    <section id="achievements" class="target">
+      <div class='space-between'>
+        <h2 class="font-header">Achievements</h2>
+        <i class="fa fa-star"></i>
+      </div>
+
+      <div id="achievements-content" class="font-body">
+        <div id="achieved">
+          <section>
+            <h3>2021</h3>
+            <p>Best project nomination (Web Information System)</p>
+          </section>
+
+          <section>
+            <h3>2020</h3>
+            <p>Dean's Commendation For Academic Excellence (S1)</p>
+            <p>Best use of Analytic Tool Award (Cloud Computing)</p>
+          </section>
+        </div>
       </div>
     </section>
 

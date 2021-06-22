@@ -179,15 +179,15 @@ body {
   display: block;
 }
 
-em, #projects-content a {
+a {
   -webkit-transition: all ease 2s;
   -moz-transition: all ease 2s;
   transition: all ease 2s;
   color: white;
 }
 
-#welcome em:hover, #projects-content a:hover {
-  box-shadow: inset 100px 0 0 0 #0befa2;
+#welcome a:hover, #projects a:hover {
+  box-shadow: inset 120px 0 0 0 #0befa2;
   color: black;
   text-decoration-color: black;
 }
@@ -199,7 +199,7 @@ em, #projects-content a {
   }
 
   body > * {
-    margin: 10% 5% 10% 5%;
+    margin: 10% 7.5% 10% 7.5%;
   }
 
   body #top-bar {

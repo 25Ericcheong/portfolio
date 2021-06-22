@@ -204,6 +204,10 @@ em, #projects-content a {
   text-decoration-color: $primary-bg-color;
 }
 
+li {
+  list-style-position: inside;
+}
+
 @media screen and (max-width: 768px) {
   #welcome  .top-welcome-content {
     display: flex;
