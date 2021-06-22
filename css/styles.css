@@ -1,0 +1,365 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.font-header {
+  font-family: "Oxygen", Helvetica;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.fa {
+  font-size: 24px;
+  color: white;
+}
+
+#top-bar h1 {
+  color: #0befa2;
+}
+
+#top-bar {
+  position: sticky;
+  top: 0;
+  background-color: black;
+  z-index: 1;
+}
+
+#welcome .top-welcome-content {
+  margin-bottom: 2%;
+}
+
+#welcome .top-welcome-content img {
+  border-radius: 50%;
+  width: 26%;
+  height: 26%;
+  max-width: 180px;
+  max-height: 180px;
+  filter: grayscale(50%);
+  border: 3px solid #0befa2;
+  padding: 1%;
+}
+
+#welcome .top-welcome-content h1, #welcome h2 {
+  color: white;
+}
+
+#welcome h2 {
+  font-size: 1.15em;
+  font-family: "Fira Sans", Georgia;
+  font-weight: 300;
+  margin-bottom: 10%;
+}
+
+#welcome h2 em, #projects-content a {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: #0befa2;
+}
+
+#education-content, #achievements-content, #experience-content, #projects-content .reviewer-hub-project {
+  margin-top: 5%;
+}
+
+#projects-content > * {
+  margin-top: 15%;
+}
+
+#achievements-content section p:last-child {
+  margin-bottom: 5%;
+}
+
+.more-details {
+  margin: 4% 0 5% 0;
+}
+
+.more-details div {
+  display: flex;
+}
+
+.more-details i {
+  width: 24px;
+  margin-right: 3%;
+  text-align: center;
+}
+
+.more-details div:last-child, .top-spacing {
+  margin-top: 2%;
+}
+
+#projects-content .skills p {
+  margin: 2.5% 2.5% 2.5% 0;
+  padding: 2%;
+  background-color: #0befa2;
+  color: black;
+  border-radius: 15px;
+}
+
+#projects-content .skills p:first-child {
+  margin-left: 0;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fa-bars, .fa-close {
+  cursor: pointer;
+}
+
+.font-body {
+  font-size: 1em;
+  font-family: "Fira Sans", Georgia;
+  color: white;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+.font-emphasized {
+  font-size: 1em;
+  font-family: "Fira Sans", Georgia;
+  font-weight: 700;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 2.5%;
+  padding-top: 2.5%;
+  border-bottom: white solid 1px;
+}
+
+#footer {
+  border-bottom: none;
+  border-top: white solid 1px;
+}
+
+#footer #current-year, #footer #connects {
+  width: 50%;
+}
+
+#footer #connects {
+  text-align: right;
+}
+
+#footer #connects a {
+  padding-left: 2%;
+}
+
+#links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  display: block;
+  padding-top: 15px;
+}
+
+body {
+  color: #0befa2;
+  background-color: black;
+}
+
+#footer p {
+  color: #0befa2;
+  font-weight: 400;
+}
+
+#links a.active {
+  text-decoration: underline;
+  text-decoration-color: #0befa2;
+}
+
+#projects-content img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 2% auto 2% auto;
+  display: block;
+}
+
+em, #projects-content a {
+  -webkit-transition: all ease 2s;
+  -moz-transition: all ease 2s;
+  transition: all ease 2s;
+  color: white;
+}
+
+#welcome em:hover, #projects-content a:hover {
+  box-shadow: inset 100px 0 0 0 #0befa2;
+  color: black;
+  text-decoration-color: black;
+}
+
+@media screen and (max-width: 768px) {
+  #welcome .top-welcome-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  body > * {
+    margin: 10% 5% 10% 5%;
+  }
+
+  body #top-bar {
+    margin: 0 5% 10% 5%;
+  }
+
+  body #footer {
+    margin: 10% 5% 0 5%;
+  }
+
+  body #welcome {
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+
+  .side-nav {
+    width: 0;
+    position: fixed;
+    background: black;
+    margin: 0 5% 0 5%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  #links a {
+    background: black;
+    padding: 2.5% 0 2.5% 0;
+  }
+
+  #links a:last-child {
+    border-bottom: white solid 1px;
+  }
+}
+@media screen and (min-width: 769px) {
+  #welcome h1 {
+    margin-bottom: 2%;
+  }
+
+  #welcome {
+    margin-top: 10%;
+  }
+
+  #welcome .top-welcome-content {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #welcome h2 {
+    text-align: center;
+  }
+
+  body > * {
+    margin: 5%;
+  }
+
+  body #top-bar {
+    margin: 0 5% 5% 5%;
+  }
+
+  body #footer {
+    margin: 5% 5% 0 5%;
+  }
+
+  #hamburger-menu, #close-nav {
+    display: none;
+  }
+
+  .side-nav {
+    width: "";
+    display: block;
+  }
+
+  #links {
+    display: flex;
+    width: 100%;
+  }
+
+  #links a {
+    padding: 0 10px 0 10px;
+  }
+
+  #links a:last-child {
+    padding: 0 0 0 10px;
+  }
+
+  #projects-content img {
+    height: 60%;
+    width: 60%;
+  }
+
+  #projects-content .skills p {
+    padding: 1%;
+  }
+
+  #projects h3 {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #projects h3 {
+    text-align: left;
+  }
+
+  #education-content, #achievements-content #achieved {
+    display: flex;
+  }
+
+  .project-detail {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 2%;
+  }
+
+  .project-detail > * {
+    width: 50%;
+  }
+
+  #projects-content .project-detail img {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+  }
+
+  #projects-content .robotic-design-project .project-detail .img-sizing, #projects-content .pokemon-project .project-detail .img-sizing, #projects-content .resort-project .project-detail .img-sizing {
+    height: 50%;
+  }
+
+  #projects-content .robotic-design-project .project-detail img {
+    width: 50%;
+  }
+
+  #projects-content .pokemon-project .project-detail img, #projects-content .resort-project .project-detail img {
+    width: 56%;
+  }
+
+  .img-sizing {
+    padding-left: 5%;
+  }
+
+  #education-content > *, #achieved > * {
+    padding-right: 5%;
+  }
+
+  body #projects-content {
+    margin-bottom: 10%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  body > * {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
