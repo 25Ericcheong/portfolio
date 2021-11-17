@@ -57,7 +57,7 @@
   text-decoration-color: #0befa2;
 }
 
-#education-content, #achievements-content, #experience-content, #projects-content .reviewer-hub-project {
+#education-content, #achievements-content, #experience-content, #projects-content {
   margin-top: 5%;
 }
 
@@ -71,7 +71,7 @@
 }
 
 #projects-content > * {
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
 #achievements-content section p:last-child {
