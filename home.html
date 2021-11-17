@@ -147,13 +147,13 @@
                   Users would then be able to save certain reviews into their wishlist, write comments on reviews, upvote or downvote reviews that are bad or good
                 </li>
                 <li>
-                  All reviews, account created by users and reviews that are saved, would be stored in a database. Data is then extracted from the database to be presented visually to users and/or to anyone else visiting the website
+                  All reviews, account created by users and reviews that are saved, would be stored in a database. Data is then extracted from the database to be presented visually to users and/or to anyone else visiting the website. The database is also used in multiple other functionalities as well
                 </li>
                 <li>
-                  The website utilizes google chart API to allow users to visualize what they have done - this is specific to how many reviews that they have created on a specific day with the use of a heat map and how the community is growing which is presented with the use of a simple line graph.
+                  The website utilizes google chart API to allow users to visualize what they have done - this is specific to how many reviews that they have created on a specific day with the use of a heat map and how the community is growing which is presented with the use of a simple line graph
                 </li>
                 <li>
-                  It also has a simple chatbot that has functionalities like allowing users to delete or ban comments (this is extracted based on user's input on what the comments are about and which product was the comment posted on) or reviews or even find other existing users (by searching for the user's username which is unique in the database)
+                  It also has a simple chatbot that has functionalities like allowing users to delete or ban comments (this is extracted from the database based on user's input on what the comments are about and which product was the comment posted on) or reviews or even find other existing users (by searching for the user's username which is unique in the database)
                 </li>
               </ul>
               <p class="font-body">Source code can be found <em><a href="https://github.com/25Ericcheong/reviewer-hub-web/tree/master/project" target="_blank">here.</a></em>
@@ -176,6 +176,8 @@
             </div>
             <div class="project-description">
               <ul class="font-body">
+                <li>This project was open ended as any topic could have been used but it must involved the use of GCP to simulate the use of cloud computing. As such, the topic I chose (based on the availability of data) was focused on predicting user's satisfaction level based on the given dataset</li>
+                <li>The project was developed in a way that it allows anyone to be able to replicate and access the project anywhere and anytime as long as permission as granted. The next few bullet points discusses the procedures that I have taken throughout the development of the project and how the project's environment was set up</li>
                 <li>Performed analysis on dataset acquired from Kaggle</li>
                 <li>Prior to performing model training with dataset, data cleaning was performed to remove duplicates or any other form of anomalies</li>
                 <li>Dataset was stored with the use of a distributed file system (Apache Hadoop)</li>
