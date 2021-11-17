@@ -61,6 +61,15 @@
   margin-top: 5%;
 }
 
+.experience {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience .description {
+  width: 60%;
+}
+
 #projects-content > * {
   margin-top: 15%;
 }
@@ -70,7 +79,7 @@
 }
 
 .more-details {
-  margin: 4% 0 5% 0;
+  margin: 10% 0 5% 0;
 }
 
 .more-details div {
@@ -179,17 +188,21 @@ body {
   display: block;
 }
 
-a {
+em, #projects-content a {
   -webkit-transition: all ease 2s;
   -moz-transition: all ease 2s;
   transition: all ease 2s;
   color: white;
 }
 
-#welcome a:hover, #projects a:hover {
-  box-shadow: inset 120px 0 0 0 #0befa2;
+#welcome em:hover, #projects-content a:hover {
+  box-shadow: inset 100px 0 0 0 #0befa2;
   color: black;
   text-decoration-color: black;
+}
+
+li {
+  list-style-position: outside;
 }
 
 @media screen and (max-width: 768px) {
@@ -199,7 +212,7 @@ a {
   }
 
   body > * {
-    margin: 10% 7.5% 10% 7.5%;
+    margin: 10% 5% 10% 5%;
   }
 
   body #top-bar {

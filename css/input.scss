@@ -72,6 +72,15 @@ $font-size-body: 1em;
   margin-top: 5%;
 }
 
+.experience {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience .description {
+  width: 60%;
+}
+
 #projects-content > * {
   margin-top: 15%;
 }
@@ -81,7 +90,7 @@ $font-size-body: 1em;
 }
 
 .more-details {
-  margin: 4% 0 5% 0;
+  margin: 10% 0 5% 0;
 }
 
 .more-details div {
@@ -205,7 +214,7 @@ em, #projects-content a {
 }
 
 li {
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 @media screen and (max-width: 768px) {
