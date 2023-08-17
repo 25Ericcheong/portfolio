@@ -40,7 +40,8 @@
   padding: 1%;
 }
 
-#welcome .top-welcome-content h1, #welcome h2 {
+#welcome .top-welcome-content h1,
+#welcome h2 {
   color: white;
 }
 
@@ -51,13 +52,17 @@
   margin-bottom: 10%;
 }
 
-#welcome h2 em, #projects-content a {
+#welcome h2 em,
+#projects-content a {
   color: white;
   text-decoration: underline;
   text-decoration-color: #0befa2;
 }
 
-#education-content, #achievements-content, #experience-content, #projects-content {
+#education-content,
+#achievements-content,
+#experience-content,
+#projects-content {
   margin-top: 5%;
 }
 
@@ -92,11 +97,13 @@
   text-align: center;
 }
 
-.more-details div:last-child, .top-spacing {
+.more-details div:last-child,
+.top-spacing {
   margin-top: 2%;
 }
 
-#projects-content .skills p {
+#projects-content .skills p,
+#experience-content .skills p {
   margin: 2.5% 2.5% 2.5% 0;
   padding: 2%;
   background-color: #0befa2;
@@ -113,7 +120,8 @@
   flex-wrap: wrap;
 }
 
-.fa-bars, .fa-close {
+.fa-bars,
+.fa-close {
   cursor: pointer;
 }
 
@@ -146,7 +154,8 @@
   border-top: white solid 1px;
 }
 
-#footer #current-year, #footer #connects {
+#footer #current-year,
+#footer #connects {
   width: 50%;
 }
 
@@ -188,14 +197,14 @@ body {
   display: block;
 }
 
-em, #projects-content a {
-  -webkit-transition: all ease 2s;
-  -moz-transition: all ease 2s;
+em,
+#projects-content a {
   transition: all ease 2s;
   color: white;
 }
 
-#welcome em:hover, #projects-content a:hover {
+#welcome em:hover,
+#projects-content a:hover {
   box-shadow: inset 100px 0 0 0 #0befa2;
   color: black;
   text-decoration-color: black;
@@ -210,24 +219,19 @@ li {
     display: flex;
     justify-content: space-between;
   }
-
   body > * {
     margin: 10% 5% 10% 5%;
   }
-
   body #top-bar {
     margin: 0 5% 10% 5%;
   }
-
   body #footer {
     margin: 10% 5% 0 5%;
   }
-
   body #welcome {
     margin-top: 20%;
     margin-bottom: 20%;
   }
-
   .side-nav {
     width: 0;
     position: fixed;
@@ -239,12 +243,10 @@ li {
     overflow-x: hidden;
     transition: 0.5s;
   }
-
   #links a {
     background: black;
     padding: 2.5% 0 2.5% 0;
   }
-
   #links a:last-child {
     border-bottom: white solid 1px;
   }
@@ -253,11 +255,9 @@ li {
   #welcome h1 {
     margin-bottom: 2%;
   }
-
   #welcome {
     margin-top: 10%;
   }
-
   #welcome .top-welcome-content {
     text-align: center;
     display: flex;
@@ -265,54 +265,44 @@ li {
     align-items: center;
     flex-direction: column;
   }
-
   #welcome h2 {
     text-align: center;
   }
-
   body > * {
     margin: 5%;
   }
-
   body #top-bar {
     margin: 0 5% 5% 5%;
   }
-
   body #footer {
     margin: 5% 5% 0 5%;
   }
-
-  #hamburger-menu, #close-nav {
+  #hamburger-menu,
+  #close-nav {
     display: none;
   }
-
   .side-nav {
     width: "";
     display: block;
   }
-
   #links {
     display: flex;
     width: 100%;
   }
-
   #links a {
     padding: 0 10px 0 10px;
   }
-
   #links a:last-child {
     padding: 0 0 0 10px;
   }
-
   #projects-content img {
     height: 60%;
     width: 60%;
   }
-
-  #projects-content .skills p {
+  #projects-content .skills p,
+  #experience-content .skills p {
     padding: 1%;
   }
-
   #projects h3 {
     text-align: center;
   }
@@ -321,21 +311,18 @@ li {
   #projects h3 {
     text-align: left;
   }
-
-  #education-content, #achievements-content #achieved {
+  #education-content,
+  #achievements-content #achieved {
     display: flex;
   }
-
   .project-detail {
     display: flex;
     flex-direction: row-reverse;
     margin-top: 2%;
   }
-
   .project-detail > * {
     width: 50%;
   }
-
   #projects-content .project-detail img {
     margin-top: 0;
     margin-bottom: 0;
@@ -343,27 +330,25 @@ li {
     height: 100%;
     border-radius: 2%;
   }
-
-  #projects-content .robotic-design-project .project-detail .img-sizing, #projects-content .pokemon-project .project-detail .img-sizing, #projects-content .resort-project .project-detail .img-sizing {
+  #projects-content .robotic-design-project .project-detail .img-sizing,
+  #projects-content .pokemon-project .project-detail .img-sizing,
+  #projects-content .resort-project .project-detail .img-sizing {
     height: 50%;
   }
-
   #projects-content .robotic-design-project .project-detail img {
     width: 50%;
   }
-
-  #projects-content .pokemon-project .project-detail img, #projects-content .resort-project .project-detail img {
+  #projects-content .pokemon-project .project-detail img,
+  #projects-content .resort-project .project-detail img {
     width: 56%;
   }
-
   .img-sizing {
     padding-left: 5%;
   }
-
-  #education-content > *, #achieved > * {
+  #education-content > *,
+  #achieved > * {
     padding-right: 5%;
   }
-
   body #projects-content {
     margin-bottom: 10%;
   }
@@ -373,6 +358,4 @@ li {
     margin-left: 15%;
     margin-right: 15%;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
